@@ -16,7 +16,7 @@ All modules are contained in a directory with the following structure
                  @_ccode_/<module_name>.exec
 
 ---
-* <module_name>.json
+* `<module_name>`.json
     * This file has a JSON structure with information about the module and its components
 
 * <module_name>.json.hash
