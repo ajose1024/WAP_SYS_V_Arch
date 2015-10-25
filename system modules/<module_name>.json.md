@@ -10,7 +10,7 @@ It is a JSON format file
         "version" : "5.0.000" ,
         "meta_base_dir" : "%%%__FILE___%%%" ,
         "base_dir" : "code_loader" ,
-        "timestamp" : <time-stamp> ,
+        "timestamp" : `<time-stamp>` ,
         "content":
         {
             "init_file" : "code_loader.pl" ,
@@ -58,7 +58,7 @@ It is a JSON format file
                         "load_type" : "optional"
                     }
                 }
-            }
+            } ,
             "data" :
             {
                 "dir" : "@data" ,
