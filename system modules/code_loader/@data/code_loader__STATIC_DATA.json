@@ -1,0 +1,10 @@
+{
+    "name" : "code_loader__STATIC_DATA" ,
+    "version" : "5.0.000" ,
+    "meta_base_dir" : null ,
+    "base_dir" : "code_loader/@data" ,
+    "timestamp" : "<time-stamp>" ,
+    "content":
+    {
+    }
+}

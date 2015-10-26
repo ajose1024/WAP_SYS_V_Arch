@@ -13,7 +13,7 @@ All modules are contained in a directory with the following structure
                  @data/<module_name>__INIT_DATA.json
                        <module_name>__DATA.json
                  @docs/<module_name>__DOCS.txt
-                 @_ccode_/<module_name>.exec
+                 @_ccache_/<module_name>.exec
 
 ---
 * `<module_name>`.json
@@ -54,3 +54,6 @@ All modules are contained in a directory with the following structure
 
 * @docs  (directory)
      * This directory has the modules documentation
+
+* @_ccache_  (directory)
+      * This directory has the "compiled" versions of code files and data files

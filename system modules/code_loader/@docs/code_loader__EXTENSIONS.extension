@@ -1,0 +1,6 @@
+# This file has the code necessary to load 'extension' modules
+# (modules that exist in a directory and that are loaded whenever they
+#  are present in that directory, ordered by the numeric prefix in it's
+#  name)
+#
+
