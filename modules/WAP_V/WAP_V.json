@@ -1,0 +1,140 @@
+{
+    "name" : "WAP_V" ,
+    "version" : "5.0.000" ,
+    "meta_base_dir" : "%%%__FILE___%%%" ,
+    "base_dir" : "WAP_V" ,
+    "timestamp" : "<time-stamp>" ,
+    "content":
+    {
+        "init_file" : "WAP_V.php" ,
+        "descr_file" : "WAP_V.json" ,
+        "description" : "This is the WAP_V module, in PERL implementation" ,
+        "code" :
+        {
+            "dir" : "@code" ,
+            "nr_comp" : 5 ,
+            "components" :
+            {
+                "CONSTANTS" :
+                {
+                    "file_name" : "WAP_V__CONMSTANTS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "WAP_V/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "INTERFACE" :
+                {
+                    "file_name" : "WAP_V__INTERFACE.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "WAP_V/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "CLASS" :
+                {
+                    "file_name" : "WAP_V__CLASS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "WAP_V/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "EXTENSIONS" :
+                {
+                    "file_name" : "WAP_V__EXTENSIONS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "WAP_V/@code/" ,
+                    "load_type" : "optional"
+                } ,
+                "ACTIONS" :
+                {
+                    "file_name" : "WAP_V__ACTIONS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "WAP_V/@code/" ,
+                    "load_type" : "optional"
+                }
+            }
+        } ,
+        "data" :
+        {
+            "dir" : "@data" ,
+            "nr_comp" : 3 ,
+            "components" :
+            {
+                "INIT_DATA" :
+                {
+                    "file_name" : "WAP_V__INIT_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "WAP_V/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                } ,
+                "STATIC_DATA" :
+                {
+                    "file_name" : "WAP_V__STATIC_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "WAP_V/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                } ,
+                "DATA" :
+                {
+                    "file_name" : "WAP_V__DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "WAP_V/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                }
+            }
+        } ,
+        "docs" :
+        {
+            "dir" : "@docs" ,
+            "nr_comp" : 3 ,
+            "components" :
+            {
+                "DESCRIPTION" :
+                {
+                    "file_name" : "WAP_V__DESCRIPTION.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "WAP_V/@docs/" ,
+                    "load_type" : "optional"
+                } ,
+                "LICENSE" :
+                {
+                    "file_name" : "WAP_V__LICENSE.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "WAP_V/@docs/" ,
+                    "load_type" : "optional"
+                } ,
+                "META_DATA" :
+                {
+                    "file_name" : "WAP_V__META_DATA.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "WAP_V/@docs/" ,
+                    "load_type" : "optional"
+                }
+            }    
+        } ,
+        "code_cache" :
+        {
+            "dir" : "@_ccache" ,
+            "nr_comp" : 1 ,
+            "components" :
+            {
+                "CODE_FILE" :
+                {
+                    "file_name" : "WAP_V.code.pl" ,
+                    "meta_path" : null ,
+                    "file_path" : "WAP_V/@_ccache/" ,
+                    "load_type" : "optional" ,
+                    "rebuild" : false
+                } ,
+                "DEF_FILE" :
+                {
+                    "file_name" : "WAP_V.spec.json" ,
+                    "meta_path" : null ,
+                    "file_path" : "WAP_V/@_ccache/" ,
+                    "load_type" : "optional" ,
+                    "rebuild" : false
+                }
+        }
+    }
+}
