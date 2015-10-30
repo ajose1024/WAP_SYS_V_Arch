@@ -7,45 +7,47 @@
     "content":
     {
         "init_file" : null ,
-        "descr_file" : "code_loader.json" ,
-        "description" : "This is the code_loader module, in PHP implementation" ,
+        "descr_file" : ".json" ,
+        "description" : "This is the WAP_V extension modules, in PHP implementation" ,
         "extensions" :
-		[
-			{
-   	            "file_name" : "extension_module_1.php" ,
-       	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-           	    "file_path" : "WAP_V/@extensions/" ,
-               	"load_type" : "required" ,
-				"enabled" : true
-			} ,
-			{
-   	            "file_name" : "extension_module_2.php" ,
-       	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-           	    "file_path" : "WAP_V/@extensions/" ,
-               	"load_type" : "required" ,
-				"enabled" : true
-			} ,
-			{
-   	            "file_name" : "extension_module_3.php" ,
-       	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-           	    "file_path" : "WAP_V/@extensions/" ,
-               	"load_type" : "required" ,
-				"enabled" : true
-			} ,
-			{
-   	            "file_name" : "extension_module_4.php" ,
-       	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-           	    "file_path" : "WAP_V/@extensions/" ,
-               	"load_type" : "required" ,
-				"enabled" : false
-			} ,
-			{
-   	            "file_name" : "extension_module_5.php" ,
-       	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-           	    "file_path" : "WAP_V/@extensions/" ,
-               	"load_type" : "required" ,
-				"enabled" : true
-			} ,
-		]
+        {
+			[
+				{
+    	            "file_name" : "system.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"enabled" : true
+				} ,
+				{
+    	            "file_name" : "extension_module_2.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"enabled" : true
+				} ,
+				{
+    	            "file_name" : "extension_module_3.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"enabled" : true
+				} ,
+				{
+    	            "file_name" : "extension_module_4.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"enabled" : false
+				} ,
+				{
+    	            "file_name" : "extension_module_5.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"enabled" : true
+				} ,
+			]
+        }
     }
 }
