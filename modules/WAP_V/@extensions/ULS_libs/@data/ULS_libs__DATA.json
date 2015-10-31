@@ -1,0 +1,12 @@
+{
+    "name" : "system__DATA.json" ,
+    "version" : "5.0.000" ,
+    "meta_base_dir" : "%%%__FILE___%%%" ,
+    "base_dir" : "WAP_V/@extenstions/system/@data" ,
+    "timestamp" : "<time-stamp>" ,
+    "file_type" : "text/json" ,
+	"module_type" : "standard" ,
+    "content":
+    {
+    }
+}

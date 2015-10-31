@@ -1,33 +1,33 @@
 {
-    "name" : "WAP_V_extension_modules" ,
+    "name" : "ULS_libs_extension_modules" ,
     "version" : "5.0.000" ,
     "meta_base_dir" : "%%%__FILE___%%%" ,
-    "base_dir" : "WAP_V/@extensions/" ,
+    "base_dir" : "ULS_libs/@extensions/" ,
     "timestamp" : "<time-stamp>" ,
     "content":
     {
         "init_file" : null ,
         "descr_file" : ".json" ,
-        "description" : "This is the WAP_V extension modules, in PHP implementation" ,
+        "description" : "This is the ULS_libs extension modules, in PHP implementation" ,
 		"nr_exts" : 2 ,
         "extensions" :
         {
 			[
 				{
-    	            "file_name" : "ULS_libs.php" ,
+    	            "file_name" : "xxx.php" ,
         	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-            	    "file_path" : "WAP_V/@extensions/" ,
+            	    "file_path" : "ULS_libs/@extensions/" ,
                 	"load_type" : "required" ,
-					"ext_type"  : "standard" ,
-					"enabled" : true
+					"ext_type"  : "simple" ,
+					"enabled" : false
 				} ,
 				{
-    	            "file_name" : "system.php" ,
+    	            "file_name" : "xxx.php" ,
         	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
-            	    "file_path" : "WAP_V/@extensions/" ,
+            	    "file_path" : "ULS_libs/@extensions/" ,
                 	"load_type" : "required" ,
-					"ext_type"  : "standard" ,
-					"enabled" : true
+					"ext_type"  : "simple" ,
+					"enabled" : false
 				}
 			]
         }
