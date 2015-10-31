@@ -1,0 +1,16 @@
+{
+<<<<<<< HEAD:modules/WAP_V/@extensions/extension_module_1/@data/system__STATIC_DATA.json
+    "name" : "system__STATIC_DATA.json" ,
+=======
+    "name" : "extension_module_1__STATIC_DATA.json" ,
+>>>>>>> dcdd9a81b901c75863e9902fd8d00016f910834f:modules/WAP_V/@extensions/extension_module_1/@data/externsion_module_1__STATIC_DATA.json
+    "version" : "5.0.000" ,
+    "meta_base_dir" : "%%%__FILE___%%%" ,
+    "base_dir" : "WAP_V/@data" ,
+    "timestamp" : "<time-stamp>" ,
+    "file_type" : "text/json" ,
+	"module_type" : "standard" ,
+    "content":
+    {
+    }
+}
