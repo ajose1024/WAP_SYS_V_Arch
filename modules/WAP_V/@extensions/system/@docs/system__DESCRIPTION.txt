@@ -1,0 +1,4 @@
+Module:       system
+Module type:  Standard Module
+
+This module implements general basic functions, used in the whole WAP Framework

@@ -1,0 +1,141 @@
+{
+    "name" : "system" ,
+    "version" : "5.0.000" ,
+    "meta_base_dir" : "%%%__FILE___%%%" ,
+    "base_dir" : "system" ,
+    "timestamp" : "<time-stamp>" ,
+    "content":
+    {
+        "init_file" : "system.php" ,
+        "descr_file" : "system.json" ,
+        "description" : "This is the system module, in PHP implementation" ,
+        "code" :
+        {
+            "dir" : "@code" ,
+            "nr_comp" : 5 ,
+            "components" :
+            {
+                "CONSTANTS" :
+                {
+                    "file_name" : "system__CONSTANTS.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "INTERFACE" :
+                {
+                    "file_name" : "system__INTERFACE.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "CLASS" :
+                {
+                    "file_name" : "system__CLASS.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+                    "load_type" : "required"
+                } ,
+                "EXTENSIONS" :
+                {
+                    "file_name" : "system__EXTENSIONS.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+                    "load_type" : "optional"
+                } ,
+                "ACTIONS" :
+                {
+                    "file_name" : "system__ACTIONS.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+                    "load_type" : "optional"
+                }
+            }
+        } ,
+        "data" :
+        {
+            "dir" : "@data" ,
+            "nr_comp" : 3 ,
+            "components" :
+            {
+                "INIT_DATA" :
+                {
+                    "file_name" : "system__INIT_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                } ,
+                "STATIC_DATA" :
+                {
+                    "file_name" : "system__STATIC_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                } ,
+                "DATA" :
+                {
+                    "file_name" : "system__DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+                    "load_type" : "required" ,
+                    "data_format" : "text/json"
+                }
+            }
+        } ,
+        "docs" :
+        {
+            "dir" : "@docs" ,
+            "nr_comp" : 3 ,
+            "components" :
+            {
+                "DESCRIPTION" :
+                {
+                    "file_name" : "system__DESCRIPTION.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+                    "load_type" : "optional"
+                } ,
+                "LICENSE" :
+                {
+                    "file_name" : "system__LICENSE.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+                    "load_type" : "optional"
+                } ,
+                "META_DATA" :
+                {
+                    "file_name" : "system__META_DATA.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+                    "load_type" : "optional"
+                }
+            }    
+        } ,
+        "code_cache" :
+        {
+            "dir" : "@_ccache" ,
+            "nr_comp" : 1 ,
+            "components" :
+            {
+                "CODE_FILE" :
+                {
+                    "file_name" : "system.code.php" ,
+                    "meta_path" : null ,
+                    "file_path" : "system/@_ccache/" ,
+                    "load_type" : "optional" ,
+                    "rebuild" : false
+                } ,
+                "DEF_FILE" :
+                {
+                    "file_name" : "system.spec.json" ,
+                    "meta_path" : null ,
+                    "file_path" : "system/@_ccache/" ,
+                    "load_type" : "optional" ,
+                    "rebuild" : false
+                }
+            }
+        }
+    }
+}

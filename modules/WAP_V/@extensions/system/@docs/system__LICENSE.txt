@@ -1,0 +1,8 @@
+Code License
+------------
+
+This module's code is copyrighted and under the Artistic License 2.0
+
+The full license text can be read and consulted at:
+
+https://opensource.org/licenses/Artistic-2.0

@@ -1,14 +1,14 @@
 {
-    "name" : "WAP_V" ,
+    "name" : "ULS_libs" ,
     "version" : "5.0.000" ,
     "meta_base_dir" : "%%%__FILE___%%%" ,
-    "base_dir" : "WAP_V" ,
+    "base_dir" : "ULS_libs" ,
     "timestamp" : "<time-stamp>" ,
     "content":
     {
-        "init_file" : "WAP_V.php" ,
-        "descr_file" : "WAP_V.json" ,
-        "description" : "This is the WAP_V module, in PERL implementation" ,
+        "init_file" : "ULS_libs.php" ,
+        "descr_file" : "ULS_libs.json" ,
+        "description" : "This is the ULS_libs module, in PHP implementation" ,
         "code" :
         {
             "dir" : "@code" ,
@@ -17,37 +17,37 @@
             {
                 "CONSTANTS" :
                 {
-                    "file_name" : "WAP_V__CONMSTANTS.php" ,
+                    "file_name" : "ULS_libs__CONSTANTS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
-                    "file_path" : "WAP_V/@code/" ,
+                    "file_path" : "ULS_libs/@code/" ,
                     "load_type" : "required"
                 } ,
                 "INTERFACE" :
                 {
-                    "file_name" : "WAP_V__INTERFACE.php" ,
+                    "file_name" : "ULS_libs__INTERFACE.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
-                    "file_path" : "WAP_V/@code/" ,
+                    "file_path" : "ULS_libs/@code/" ,
                     "load_type" : "required"
                 } ,
                 "CLASS" :
                 {
-                    "file_name" : "WAP_V__CLASS.php" ,
+                    "file_name" : "ULS_libs__CLASS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
-                    "file_path" : "WAP_V/@code/" ,
+                    "file_path" : "ULS_libs/@code/" ,
                     "load_type" : "required"
                 } ,
                 "EXTENSIONS" :
                 {
-                    "file_name" : "WAP_V__EXTENSIONS.php" ,
+                    "file_name" : "ULS_libs__EXTENSIONS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
-                    "file_path" : "WAP_V/@code/" ,
+                    "file_path" : "ULS_libs/@code/" ,
                     "load_type" : "optional"
                 } ,
                 "ACTIONS" :
                 {
-                    "file_name" : "WAP_V__ACTIONS.php" ,
+                    "file_name" : "ULS_libs__ACTIONS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
-                    "file_path" : "WAP_V/@code/" ,
+                    "file_path" : "ULS_libs/@code/" ,
                     "load_type" : "optional"
                 }
             }
@@ -60,25 +60,25 @@
             {
                 "INIT_DATA" :
                 {
-                    "file_name" : "WAP_V__INIT_DATA.json" ,
+                    "file_name" : "ULS_libs__INIT_DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
-                    "file_path" : "WAP_V/@data/" ,
+                    "file_path" : "ULS_libs/@data/" ,
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 } ,
                 "STATIC_DATA" :
                 {
-                    "file_name" : "WAP_V__STATIC_DATA.json" ,
+                    "file_name" : "ULS_libs__STATIC_DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
-                    "file_path" : "WAP_V/@data/" ,
+                    "file_path" : "ULS_libs/@data/" ,
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 } ,
                 "DATA" :
                 {
-                    "file_name" : "WAP_V__DATA.json" ,
+                    "file_name" : "ULS_libs__DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
-                    "file_path" : "WAP_V/@data/" ,
+                    "file_path" : "ULS_libs/@data/" ,
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 }
@@ -92,23 +92,23 @@
             {
                 "DESCRIPTION" :
                 {
-                    "file_name" : "WAP_V__DESCRIPTION.txt" ,
+                    "file_name" : "ULS_libs__DESCRIPTION.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
-                    "file_path" : "WAP_V/@docs/" ,
+                    "file_path" : "ULS_libs/@docs/" ,
                     "load_type" : "optional"
                 } ,
                 "LICENSE" :
                 {
-                    "file_name" : "WAP_V__LICENSE.txt" ,
+                    "file_name" : "ULS_libs__LICENSE.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
-                    "file_path" : "WAP_V/@docs/" ,
+                    "file_path" : "ULS_libs/@docs/" ,
                     "load_type" : "optional"
                 } ,
                 "META_DATA" :
                 {
-                    "file_name" : "WAP_V__META_DATA.txt" ,
+                    "file_name" : "ULS_libs__META_DATA.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
-                    "file_path" : "WAP_V/@docs/" ,
+                    "file_path" : "ULS_libs/@docs/" ,
                     "load_type" : "optional"
                 }
             }    
@@ -121,17 +121,17 @@
             {
                 "CODE_FILE" :
                 {
-                    "file_name" : "WAP_V.code.php" ,
+                    "file_name" : "ULS_libs.code.pl" ,
                     "meta_path" : null ,
-                    "file_path" : "WAP_V/@_ccache/" ,
+                    "file_path" : "ULS_libs/@_ccache/" ,
                     "load_type" : "optional" ,
                     "rebuild" : false
                 } ,
                 "DEF_FILE" :
                 {
-                    "file_name" : "WAP_V.spec.json" ,
+                    "file_name" : "ULS_libs.spec.json" ,
                     "meta_path" : null ,
-                    "file_path" : "WAP_V/@_ccache/" ,
+                    "file_path" : "ULS_libs/@_ccache/" ,
                     "load_type" : "optional" ,
                     "rebuild" : false
                 }
