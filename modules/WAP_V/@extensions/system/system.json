@@ -31,21 +31,33 @@
                 } ,
                 "CLASS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "system__CLASS.php" ,
+=======
+                    "file_name" : "system__CLASS.pl" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "system/@code/" ,
                     "load_type" : "required"
                 } ,
                 "EXTENSIONS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "system__EXTENSIONS.php" ,
+=======
+                    "file_name" : "system__EXTENSIONS.pl" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "system/@code/" ,
                     "load_type" : "optional"
                 } ,
                 "ACTIONS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "system__ACTIONS.php" ,
+=======
+                    "file_name" : "system__ACTIONS.pl" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "system/@code/" ,
                     "load_type" : "optional"
@@ -121,7 +133,11 @@
             {
                 "CODE_FILE" :
                 {
+<<<<<<< HEAD
                     "file_name" : "system.code.php" ,
+=======
+                    "file_name" : "system.code.pl" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "meta_path" : null ,
                     "file_path" : "system/@_ccache/" ,
                     "load_type" : "optional" ,
@@ -135,7 +151,13 @@
                     "load_type" : "optional" ,
                     "rebuild" : false
                 }
+<<<<<<< HEAD
             }
         }
     }
 }
+=======
+        }
+    }
+}
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc

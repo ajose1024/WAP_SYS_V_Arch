@@ -9,6 +9,7 @@
         "init_file" : null ,
         "descr_file" : ".json" ,
         "description" : "This is the ULS_libs extension modules, in PHP implementation" ,
+<<<<<<< HEAD
         "nr_exts" : 2 ,
         "extensions" :
         [
@@ -31,3 +32,29 @@
         ]
     }
 }
+=======
+		"nr_exts" : 2 ,
+        "extensions" :
+        {
+			[
+				{
+    	            "file_name" : "xxx.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "ULS_libs/@extensions/" ,
+                	"load_type" : "required" ,
+					"ext_type"  : "simple" ,
+					"enabled" : false
+				} ,
+				{
+    	            "file_name" : "xxx.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "ULS_libs/@extensions/" ,
+                	"load_type" : "required" ,
+					"ext_type"  : "simple" ,
+					"enabled" : false
+				}
+			]
+        }
+    }
+}
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc

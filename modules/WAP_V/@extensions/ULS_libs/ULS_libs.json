@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name" : "ULS_libs" ,
     "version" : "5.0.000" ,
     "meta_base_dir" : "%%%__FILE___%%%" ,
@@ -9,6 +10,18 @@
         "init_file" : "ULS_libs.php" ,
         "descr_file" : "ULS_libs.json" ,
         "description" : "This is the ULS_libs module, in PHP implementation" ,
+=======
+    "name" : "system" ,
+    "version" : "5.0.000" ,
+    "meta_base_dir" : "%%%__FILE___%%%" ,
+    "base_dir" : "system" ,
+    "timestamp" : "<time-stamp>" ,
+    "content":
+    {
+        "init_file" : "system.php" ,
+        "descr_file" : "system.json" ,
+        "description" : "This is the system module, in PHP implementation" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
         "code" :
         {
             "dir" : "@code" ,
@@ -17,37 +30,67 @@
             {
                 "CONSTANTS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__CONSTANTS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "ULS_libs/@code/" ,
+=======
+                    "file_name" : "system__CONSTANTS.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required"
                 } ,
                 "INTERFACE" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__INTERFACE.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "ULS_libs/@code/" ,
+=======
+                    "file_name" : "system__INTERFACE.php" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required"
                 } ,
                 "CLASS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__CLASS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "ULS_libs/@code/" ,
+=======
+                    "file_name" : "system__CLASS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required"
                 } ,
                 "EXTENSIONS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__EXTENSIONS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "ULS_libs/@code/" ,
+=======
+                    "file_name" : "system__EXTENSIONS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional"
                 } ,
                 "ACTIONS" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__ACTIONS.php" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
                     "file_path" : "ULS_libs/@code/" ,
+=======
+                    "file_name" : "system__ACTIONS.pl" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@code[@dir]]]}" ,
+                    "file_path" : "system/@code/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional"
                 }
             }
@@ -60,25 +103,43 @@
             {
                 "INIT_DATA" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__INIT_DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
                     "file_path" : "ULS_libs/@data/" ,
+=======
+                    "file_name" : "system__INIT_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 } ,
                 "STATIC_DATA" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__STATIC_DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
                     "file_path" : "ULS_libs/@data/" ,
+=======
+                    "file_name" : "system__STATIC_DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 } ,
                 "DATA" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__DATA.json" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
                     "file_path" : "ULS_libs/@data/" ,
+=======
+                    "file_name" : "system__DATA.json" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@data[@dir]]]}" ,
+                    "file_path" : "system/@data/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "required" ,
                     "data_format" : "text/json"
                 }
@@ -92,23 +153,41 @@
             {
                 "DESCRIPTION" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__DESCRIPTION.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
                     "file_path" : "ULS_libs/@docs/" ,
+=======
+                    "file_name" : "system__DESCRIPTION.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional"
                 } ,
                 "LICENSE" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__LICENSE.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
                     "file_path" : "ULS_libs/@docs/" ,
+=======
+                    "file_name" : "system__LICENSE.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional"
                 } ,
                 "META_DATA" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs__META_DATA.txt" ,
                     "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
                     "file_path" : "ULS_libs/@docs/" ,
+=======
+                    "file_name" : "system__META_DATA.txt" ,
+                    "meta_path" : "{@base_dir}{__PATH_SEP__}{[@content[@docs[@dir]]]}" ,
+                    "file_path" : "system/@docs/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional"
                 }
             }    
@@ -121,20 +200,36 @@
             {
                 "CODE_FILE" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs.code.pl" ,
                     "meta_path" : null ,
                     "file_path" : "ULS_libs/@_ccache/" ,
+=======
+                    "file_name" : "system.code.pl" ,
+                    "meta_path" : null ,
+                    "file_path" : "system/@_ccache/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional" ,
                     "rebuild" : false
                 } ,
                 "DEF_FILE" :
                 {
+<<<<<<< HEAD
                     "file_name" : "ULS_libs.spec.json" ,
                     "meta_path" : null ,
                     "file_path" : "ULS_libs/@_ccache/" ,
+=======
+                    "file_name" : "system.spec.json" ,
+                    "meta_path" : null ,
+                    "file_path" : "system/@_ccache/" ,
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
                     "load_type" : "optional" ,
                     "rebuild" : false
                 }
         }
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc

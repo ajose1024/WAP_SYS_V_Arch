@@ -11,6 +11,7 @@
         "description" : "This is the WAP_V extension modules, in PHP implementation" ,
 		"nr_exts" : 2 ,
         "extensions" :
+<<<<<<< HEAD
         [
 	    {
     	        "file_name" : "ULS_libs.php" ,
@@ -29,5 +30,27 @@
                 "enabled" : true
             } ,
         ]
+=======
+        {
+			[
+				{
+    	            "file_name" : "ULS_libs.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"ext_type"  : "standard" ,
+					"enabled" : true
+				} ,
+				{
+    	            "file_name" : "system.php" ,
+        	        "meta_path" : "{@base_dir}{__PATH_SEP__}" ,
+            	    "file_path" : "WAP_V/@extensions/" ,
+                	"load_type" : "required" ,
+					"ext_type"  : "standard" ,
+					"enabled" : true
+				}
+			]
+        }
+>>>>>>> 05c8a4ef8d40d873f81df328b662bd573fd038dc
     }
 }
